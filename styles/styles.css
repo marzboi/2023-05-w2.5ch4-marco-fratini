@@ -152,5 +152,18 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.main-container h1 {
+  font-size: 2rem;
+  color: hsl(300, 43%, 22%);
+}
+.main-container .container-paragraph {
+  font-size: 1.5rem;
+}
+.main-container section div {
+  display: flex;
+}
+.main-container section div i {
+  color: yellow;
+}
 
 /*# sourceMappingURL=styles.css.map */
