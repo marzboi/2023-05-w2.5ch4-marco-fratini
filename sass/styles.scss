@@ -108,4 +108,38 @@ $light-grayish-magenta: hsl(300, 24%, 96%);
       line-height: 1.5;
     }
   }
+  @include desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100%;
+
+    header {
+      grid-area: 1 / 1 / 4 / 3;
+    }
+
+    .container-rating-1 {
+      grid-area: 1 / 3 / 2 / 4;
+    }
+
+    .container-rating-2 {
+      grid-area: 2 / 3 / 3 / 4;
+    }
+
+    .container-rating-3 {
+      grid-area: 3 / 3 / 4 / 4;
+    }
+
+    .container-review-1 {
+      grid-area: 4 / 1 / 6 / 2;
+    }
+
+    .container-review-2 {
+      grid-area: 4 / 2 / 6 / 3;
+    }
+
+    .container-review-3 {
+      grid-area: 4 / 3 / 6 / 4;
+    }
+  }
 }
